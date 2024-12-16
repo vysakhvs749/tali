@@ -1,0 +1,612 @@
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="ThemesLay">
+  <!-- Favicon icon -->
+  <link rel="icon" type="image/png" sizes="50x50" href="assets/images/favicon.jpg">
+
+  <!-- theme css -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <title>Tali</title>
+</head>
+
+<body>
+
+  <!-- preloader section -->
+  <div class="page-loader">
+    <div class="box">
+      <div class="loader"></div>
+    </div>
+  </div>
+  <!-- page wrapper section -->
+  <div id="wrapper"></div>
+
+  <!-- header-area -->
+  <header>
+    <div id="sticky-header" class="header-area" style="background: #9f9c9c5e;">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="nav-toggle"><i class="bi bi-list"></i></div>
+            <div class="menu-wrap">
+              <nav class="menu-nav">
+                <div class="brand">
+                  <a href="index.html"><img src="assets/images/brand.png" alt="Brand"></a>
+                </div>
+                <div class="menu-navbar-wrap main-menu d-none d-xl-flex">
+                  <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="">Vazhipadu</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    
+                    <!-- <li class="menu-item-children"><a href="javascript:void(0)">Pages</a>
+                      <ul class="sub-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="menu-item-children"><a href="javascript:void(0)">Buddha Shop</a>
+                          <ul class="sub-menu">
+                            <li><a href="shop.html">Shop Page</a></li>
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="sign-up.html">Sign up</a></li>
+                        <li><a href="reset-password.html">Forgot Password</a></li>
+                        <li><a href="monks.html">Monks</a></li>
+                        <li><a href="monk-details.html">Monks Details</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="services-details.html">Services Details</a></li>
+                        <li><a href="privacy.html">Privacy Page</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
+                        <li><a href="404.html">404 Page</a></li>
+                      </ul>
+                    </li> -->
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="menu-second">
+                  <ul class="list-wrap">
+                    <li class="search d-none d-sm-block"><a href=""><i class="bi bi-facebook"
+                          title="Search" data-bs-toggle="tooltip" data-bs-title="Search"></i></a>
+                    </li>
+                    <li class="search d-none d-sm-block"><a href=""><i class="bi bi-whatsapp"
+                          title="Wishlist" data-bs-toggle="tooltip" data-bs-title="Wishlist"></i></a>
+                    </li>
+                    <!-- <li class="side-toggle d-none d-sm-block"><a href="javascript:void(0)" class="side-menu"><i
+                          class="bi bi-list-nested"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+      <nav class="mobile-menu-box">
+        <div class="close-btn"><i class="bi bi-x-lg"></i></div>
+        <div class="nav-brand">
+          <a href="index.html"><img src="assets/images/brand.png" alt="Logo"></a>
+        </div>
+        <div class="mobile-menu-wrap">
+          <!-- container for mobile header menu -->
+        </div>
+        <div class="menu-search-box">
+          <form action="#">
+            <input type="text" placeholder="Search here...">
+            <button><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="mobile-menu-ovelay"></div>
+    <!-- End Mobile Menu -->
+
+    <!-- header-search -->
+    <div class="search-box-wrap">
+      <div class="search-bg"></div>
+      <div class="search-close">
+        <span><i class="bi bi-x-lg"></i></span>
+      </div>
+      <div class="search-con text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="title"><span>Your Query</span> ...</h2>
+              <div class="form">
+                <form action="#">
+                  <input type="text" name="search" placeholder="Search here" required>
+                  <button class="search-btn"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-search-end -->
+
+    <!-- offCanvas-area -->
+    <div class="offCanvas-box">
+      <div class="box-body">
+        <div class="top">
+          <div class="brand">
+            <a href="index.html"><img src="assets/images/brand.png" alt="Logo"></a>
+          </div>
+          <div class="offCanvas-close">
+            <i class="bi bi-x-lg"></i>
+          </div>
+        </div>
+        <div class="content">
+          <div class="newsletter">
+            <h4 class="small-title">Subscribe</h4>
+            <p>Subscribe To Our Newsletter </p>
+            <form action="#" class="form">
+              <input type="email" placeholder="Latest News & Updates">
+              <button type="submit"><i class="bi bi-send-fill"></i></button>
+            </form>
+          </div>
+          <div class="contact-box">
+            <h4 class="small-title">Help Info</h4>
+            <ul class="list">
+              <li><a href="tel:93332225557"><i class="bi bi-phone me-3"></i>+9 111 222 3456</a></li>
+              <li><a href="mailto:info@webmail.com"><i class="bi bi-envelope-paper me-3"></i>info@example.com</a></li>
+              <li><i class="bi bi-geo-alt me-3"></i>W-5, New Central Park, New York</li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h4 class="small-title">Connect with us</h4>
+            <ul>
+              <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+              <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+              <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+              <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+              <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2024 - By <span>Buddhism Life</span> All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    <div class="offCanvas-overlay"></div>
+    <!-- offCanvas-area-end -->
+
+  </header>
+  <!-- header-area-end -->
+
+  <!-- hero section -->
+  <section class="hero" id="home">
+    <div class="bg">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6 position-relative align-self-center">
+            <p class="sub-head mb-3 fs-4 fw-bold theme-text-white animate__animated wow animate__bounceInLeft"
+              data-wow-delay=".4s">Welcome to Tali mahadeva kshethram
+            </p>
+            <h1 class="display-1 text-uppercase mb-3 head text-effect">അതിരുദ്ര മഹായജ്ഞം
+
+            </h1>
+            <p class="fs-5 mb-0 theme-text-white animate__animated wow animate__bounceInLeft" data-wow-delay=".6s">
+              2025 ഫെബ്രുവരി 15 മുതൽ 25 കൂടി <br> ( 1200 കുംഭം 3 മുതൽ 13 കൂടി )</p>
+            <div class="group mt-5 btn-wrap animate__animated wow animate__fadeInUp" data-wow-delay=".8s">
+              <button class="btn-primary custom-btn-primary" onclick="location.href='events.html';">Vazhipadu</button>
+              <span class="ms-3">
+                <button class="btn custom-btn-secondary wave-button" type="button" id="video-button">
+                  <i class="bi bi-play fs-4"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 position-relative">
+            <figure class="mb-0 shape-wrap">
+              <img src="assets/images/hero/hero-pic.png" class="img-fluid obj-1" alt="hero image">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- partner section -->
+  <section class="py-5">
+    <!-- partner section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+            <img src="assets/images/pooja.jpg" class="img-fluid" alt="homam">
+        </div>
+        <div class="col-md-6">
+            <div class="col text-start mb-5">
+                <h2 class="mb-0 display-6 head">അതിരുദ്ര മഹായജ്ഞം
+                </h2>
+                <p class="mb-0 pt-3">ജയമാരുതി പ്രൊഡക്ഷനു വേണ്ടി ടി.ഇ. വാസുദേവൻ നിർമിച്ച മലയാളചലച്ചിത്രമാണ് പിഞ്ചുഹൃദയം. അസോസിയേറ്റഡ് പിക്ചേഴ്സ് വിതരണം ചെയ്ത ഈ ചിത്രം 1966 ഏപ്രിൽ 16-നു പ്രദർശനം തുടങ്ങി. പ്രസ്ഥലത്തെ പ്രമാണിയായ ഒരു നമ്പൂതിരിയുടെ കാര്യസ്ഥനാണ് വിശ്വനാഥൻ. ഭാര്യ സരസ്വതിയും അനുജൻ രാജശേഖരനും ആയി വീടിനു സസുഖാന്തരീക്ഷമാണ്. രാജശേഖരനെ ചേട്ടൻ പഠിപ്പിച്ച് വക്കീലാക്കി, പ്രണയിച്ചിരുന്ന മാലതിയുമായി കല്യാണവും നടത്തി. മാലതി വിശ്വനാഥന്റെ സുഹൃത്തും പണക്കാരനുമായ ഒരാളുടെ മകളാണ്. ആദ്യരാത്രിയിലാണ് അറിയുന്നത് അവൾ ഹൃദ്രോഗി
+                    ജയമാരുതി പ്രൊഡക്ഷനു വേണ്ടി ടി.ഇ. വാസുദേവൻ നിർമിച്ച മലയാളചലച്ചിത്രമാണ് പിഞ്ചുഹൃദയം.ജയമാരുതി പ്രൊഡക്ഷനു വേണ്ടി ടി.ഇ. വാസുദേവൻ നിർമിച്ച മലയാളചലച്ചിത്രമാണ് പിഞ്ചുഹൃദയം.
+                </p>
+                <button class="btn-primary custom-btn-primary mt-3" style="border-radius: 9px;">Read More</button>
+              
+                
+              </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+
+
+
+  <!-- Gallery section -->
+  <section class="gallery-sec">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-12">
+          <p class="mt-3 mb-3 theme-text-primary fs-5 fw-bold">Events Gallery</p>
+          <!-- <h2 class="mb-0 display-6 head">Festival & Celebration Gallery</h2> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12">
+          <div class="row gallery_container">
+            <div class="col-lg-12 col-md-12 portfolio-box">
+             
+              <div class="row filter-gallery">
+                <div class="col-lg-4 col-md-6 mb-4 mix day festival">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">The Art of Living</h4>
+                        <p class="title">Festival</p>
+                      </div>
+                      <a href="assets/images/gallery/gallery2.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/gallery2.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+                <div class="col-lg-4 col-md-6 mb-4 mix yoga prayers">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">To make difficult things</h4>
+                        <p class="title">Spritual</p>
+                      </div>
+                      <a href="assets/images/gallery/pooja1.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/pooja1.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+                <div class="col-lg-4 col-md-6 mb-4 mix prayers festival">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">The planning and submission</h4>
+                        <p class="title">Festival</p>
+                      </div>
+                      <a href="assets/images/gallery/gallery3.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/gallery3.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+                <div class="col-lg-4 col-md-6 mb-4 mix festival yoga">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">These guidelines are a quick</h4>
+                        <p class="title">Festival</p>
+                      </div>
+                      <a href="assets/images/gallery/gallery4.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/gallery4.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+                <div class="col-lg-4 col-md-6 mb-4 mix day">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">Complex and Fascinating</h4>
+                        <p class="title">Yoga</p>
+                      </div>
+                      <a href="assets/images/gallery/gallery5.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/gallery5.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+                <div class="col-lg-4 col-md-6 mb-4 mix day">
+                  <div class="gallery-card">
+                    <figure class="effect">
+                      <div class="bg-overlay"></div>
+                      <div class="gallery-text">
+                        <h4 class="heading">The Vcotsman sums</h4>
+                        <p class="title">Spritual</p>
+                      </div>
+                      <a href="assets/images/gallery/gallery6.jpg" class="lightbox"
+                        data-effect="mfp-zoom-in"><img src="assets/images/gallery/gallery6.jpg"
+                          alt="project gallery"></a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- repetable -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+  <!-- stream video section -->
+  <!-- <section class="watch py-5 pt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <p class="mb-3 theme-text-primary fs-5 fw-bold">Watch Festivel</p>
+          <h2 class="mb-0 display-6 head">Programme Streaming</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row mt-5">
+        <div class="owl-carousel owl-theme" id="carouselStream">
+          <div class="item">
+            <div class="group custom-button">
+              <figure>
+                <img src="assets/images/stream/stream01.jpg" alt="stream video">
+              </figure>
+              <div class="position-absolute">
+                <a href="https://www.youtube.com/watch?v=pBFQdxA-apI"
+                  class="video-icon custom-btn-secondary wave-button video_model">
+                  <i class="bi bi-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="fs-5 mb-0 fw-bold">Full Programme</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="group custom-button">
+              <figure>
+                <img src="assets/images/stream/stream02.jpg" alt="stream video">
+              </figure>
+              <div class="position-absolute">
+                <a href="https://www.youtube.com/watch?v=pBFQdxA-apI"
+                  class="video-icon custom-btn-secondary wave-button video_model">
+                  <i class="bi bi-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="fs-5 mb-0 fw-bold">Programme Incredible Moments</h3>
+            </div>
+          </div>
+          <div class="item">
+            <div class="group custom-button">
+              <figure>
+                <img src="assets/images/stream/stream03.jpg" alt="stream video">
+              </figure>
+              <div class="position-absolute">
+                <a href="https://www.youtube.com/watch?v=pBFQdxA-apI"
+                  class="video-icon custom-btn-secondary wave-button video_model">
+                  <i class="bi bi-play"></i>
+                </a>
+              </div>
+            </div>
+            <div class="content">
+              <h3 class="fs-5 mb-0 fw-bold">Celebrates Intercontinental Programme</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- top volunters section -->
+  <!-- <section class="volunters">
+    <div class="bg-pic py-8">
+      <div class="container position-relative z-2">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12">
+            <p class="mb-3 theme-text-white fs-5 fw-bold">Expert Team
+            </p>
+            <h2 class="mb-0 display-6 head text-effect">Temple Volunteers</h2>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme mt-5" id="carouselVolunters">
+          <div class="item">
+            <figure class="mb-3 icon-bg">
+              <img src="assets/images/member/sha1.jpg" class="img-fluid" alt="Top players">
+            </figure>
+            <div class="con">
+              <a href="#" class="heading">Fondo de</a>
+              <p class="mb-0">Tag Team</p>
+            </div>
+          </div>
+          
+          <div class="item">
+            <figure class="mb-3 icon-bg">
+              <img src="assets/images/top-volunteers/vol04.jpg" class="img-fluid" alt="Top players">
+            </figure>
+            <div class="con">
+              <a href="#" class="heading">Day loght</a>
+              <p class="mb-0">Squad Women's Champion</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="mb-3 icon-bg">
+              <img src="assets/images/top-volunteers/vol05.jpg" class="img-fluid" alt="Top players">
+            </figure>
+            <div class="con">
+              <a href="#" class="heading">Dorian Pavus</a>
+              <p class="mb-0">Match Women's Champion</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="mb-3 icon-bg">
+              <img src="assets/images/top-volunteers/vol06.jpg" class="img-fluid" alt="Top players">
+            </figure>
+            <div class="con">
+              <a href="#" class="heading">Bella Goth</a>
+              <p class="mb-0">Squad Champion</p>
+            </div>
+          </div>
+          <div class="item">
+            <figure class="mb-3 icon-bg">
+              <img src="assets/images/top-volunteers/vol07.jpg" class="img-fluid" alt="Top players">
+            </figure>
+            <div class="con">
+              <a href="#" class="heading">Videojuegos</a>
+              <p class="mb-0">North Champion</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ -->
+
+  <!-- contact section -->
+  <section class="contact-help py-5">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-8 offset-lg-2">
+          <div class="p-1 p-lg-4 text-center">
+            <p class="mb-3 theme-text-white fs-4 fw-bold"> Tali mahadeva kshethram
+
+            </p>
+            <h4 class="display-2 text-uppercase mb-3 head">അതിരുദ്ര മഹായജ്ഞം
+            </h4>
+          </div>
+        </div>
+        <div class="col-12 col-lg-8 offset-lg-2">
+          <div class="row mt-2">
+            <div class="col-12">
+              <div class="newsletter">
+                  <button type="submit" class="newbt"><i class="bi bi-send-fill"></i> Book Vazhipadu</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer Part -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+          <img src="assets/images/brand.png" class="img-fluid mb-4 logo" alt="Brand light">
+          <p class="pe-5 mb-0 font-small lh-lg">ശിവം ശിവകരം ശാന്തം<br>
+            ശിവാത്മാനം ശിവോത്തമം<br>
+            ശിവമാർഗ്ഗപ്രണേതാരം<br>
+            പ്രണതോസ്മി സദാശിവം</p>
+          
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 mb-5 mb-lg-0">
+          <div class="row">
+            <div class="col">
+              <h3 class="h5 fw-bold mb-4">Site Links</h3>
+              <ul class="link-list">
+                <li><a href="index.html" class="footer-link-effect">Home</a></li>
+                <li><a href="about.html" class="footer-link-effect">About Us</a></li>
+                <li><a href="donations.html" class="footer-link-effect">Contact</a></li>
+                <li><a href="gallery.html" class="footer-link-effect">Gallery</a></li>
+              </ul>
+              <!-- quick link end -->
+            </div>
+            <div class="col">
+              <h3 class="h5 fw-bold mb-4">Address</h3>
+              <p lass="pe-5 mb-0 font-small lh-lg">Tali mahadeva kshethram
+                Angadippuram(po), Malappuram(dt)
+                Pin-679321</p>
+              <!-- Support link end -->
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h3 class="h5 fw-bold mb-4">Quick Contact</h3>
+          <div class="mb-5">
+            <span class="d-flex align-items-center fs-5">
+              <i class="bi bi-phone-vibrate-fill me-3 fs-4"></i>(011) - 123456 7890
+            </span>
+          </div>
+          <!-- download our app end -->
+          <h3 class="mt-4 h5 fw-bold mb-4">Connect with us</h3>
+          <div class="d-flex social mt-3">
+            <a href="javascript:void(0)"><i class="bi bi-facebook"></i></a>
+            <a href="javascript:void(0)"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- footer bottom Part -->
+      <div class="row align-items-center mt-5">
+        <div class="col-12 text-center mt-3">
+          <p class="mb-0 font-small">&copy; Copyright 2024 by <a href="">BharathiTech</a>, All
+            rights
+            reserved.</p>
+        </div>
+      </div>
+    </div>
+    <a href="#wrapper" data-type="section-switch" class="scrollup"><i class="bi bi-chevron-double-up"></i></a>
+  </footer>
+
+
+  <!-- js file attached -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
